@@ -10,8 +10,8 @@
   --background-color-rgb: 255, 255, 255;
   --default-color: #212529;
   --default-color-rgb: 33, 37, 41;
-  --primary-color: #41C265;
-  --primary-color-rgb: #41C381;
+  --primary-color: #9E75A4;
+  --primary-color-rgb: #9E75A4;
   --secondary-color: #32353a;
   --secondary-color-rgb: 50, 53, 58;
   --contrast-color: #ffffff;
@@ -21,9 +21,9 @@
 /* Nav Menu Colors */
 :root {
   --nav-color: #3a3939;
-  --nav-hover-color: #41C265;
+  --nav-hover-color: #9E75A4;
   --nav-dropdown-color: #3a3939;
-  --nav-dropdown-hover-color: #41C265;
+  --nav-dropdown-hover-color: #9E75A4;
   --nav-dropdown-background-color: #ffffff;
   --nav-mobile-background-color: #ffffff;
 }
@@ -153,7 +153,7 @@ section {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  background: rgba(132, 132, 132, 0.5);
+  background: rgba(255, 255, 255, 0.5);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   /* border-radius: 10px; */
@@ -196,7 +196,7 @@ section {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background-color: #41C381;
+  background-color: #9E75A4;
 }
 
 @media (max-width: 1200px) {
@@ -221,7 +221,7 @@ section {
   --background-color: #ffffff;
   --secondary-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #41C265;
+  --nav-hover-color: #9E75A4;
   box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -252,7 +252,7 @@ section {
   --background-color: #ffffff;
   --secondary-color: #444444;
   --nav-color: #444444;
-  --nav-hover-color: #41C381;
+  --nav-hover-color: #9E75A4;
 }
 
 /*--------------------------------------------------------------
@@ -823,7 +823,7 @@ section {
 }
 
 .hero h2 {
-  color: #41C265;
+  color: #9E75A4;
   margin: 0;
   font-size: 44px;
   font-weight: 700;
@@ -838,7 +838,7 @@ section {
 }
 
 .hero p {
-  color: #41C265;
+  color: #9E75A4;
   margin: 5px 0 0 0;
   font-size: 12px;
   letter-spacing: 2px;
@@ -849,12 +849,13 @@ section {
   padding: 20px;
   border-radius: 7px;
   /* From https://css.glass */
-  background: rgba(82, 255, 71, 0.2);
+  /* From https://css.glass */
+  background: rgba(178, 112, 232, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(82, 255, 71, 0.3);
+  border: 1px solid rgba(178, 112, 232, 0.3);
 }
 
 .hero .sign-up-form .form-control {
@@ -881,7 +882,7 @@ section {
 }
 
 .hero .sign-up-form input[type=submit]:hover {
-  background-color: #41C381
+  background-color: #9E75A4
 }
 
 @media (max-width: 768px) {
@@ -974,7 +975,7 @@ section {
 }
 
 .about .content .read-more:hover {
-  background-color: #41C265;
+  background-color: #9E75A4;
   padding-right: 19px;
 }
 
@@ -1168,7 +1169,7 @@ section {
 /* Features Section - Home Page
 ------------------------------*/
 #features {
-  background-color: #d5ede0;
+  background-color: #C5ADCA;
 }
 
 .features .features-item {
@@ -1199,7 +1200,7 @@ section {
 }
 
 .features .features-item .btn-get-started:hover {
-  background-color: #41C381
+  background-color: #9E75A4
 }
 
 .features .features-item ul {
@@ -1518,7 +1519,7 @@ section {
 }
 
 .pricing .featured .buy-btn:hover {
-  background-color: #41C381
+  background-color: #9E75A4
 }
 
 @media (min-width: 992px) {
@@ -2904,14 +2905,14 @@ section {
   margin-top: 20px;
   padding: 20px;
   border-radius: 7px;
-  background: rgba(82, 255, 71, 0.2);
+  background: #C5ADCA;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  border: 1px solid rgba(82, 255, 71, 0.3);
+  /* border: 1px solid rgba(82, 255, 71, 0.3); */
 }
 
-#contact{
+#contact {
   background: url(../img/contact-bg.jpg);
 }
