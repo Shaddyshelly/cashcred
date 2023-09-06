@@ -168,6 +168,13 @@ section {
   margin-right: 6px;
 }
 
+@media only screen and (max-width: 600px) {
+  .header .logo img {
+    max-height: 16px;
+    margin-right: 3px;
+  }
+}
+
 .header .logo h1 {
   font-size: 24px;
   margin: 0;
